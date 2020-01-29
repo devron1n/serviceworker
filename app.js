@@ -93,7 +93,7 @@ if (
         info.show();
         info_message
             .text('')
-            .append('<strong>'+payload.data.title+'</strong>')
+            .append('<strong>'+payload.data.title+' </strong>')
             .append('<em>'+payload.data.body+'</em>')
         ;
 
