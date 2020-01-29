@@ -255,7 +255,7 @@ function setTokenSentToServer(currentToken) {
 function updateUIForPushEnabled(currentToken) {
     console.log(currentToken);
     token.text(currentToken);
-    tokenBox.show();
+    // tokenBox.show();
     bt_register.hide();
     bt_delete.show();
     form.show();
@@ -263,7 +263,7 @@ function updateUIForPushEnabled(currentToken) {
 
 function resetUI() {
     token.text('');
-    tokenBox.hide();
+    // tokenBox.hide();
     bt_register.show();
     bt_delete.hide();
     form.hide();
